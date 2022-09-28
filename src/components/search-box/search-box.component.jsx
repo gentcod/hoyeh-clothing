@@ -1,10 +1,10 @@
-import { SearchBoxContainer } from "./search-box.styles";
+import { SearchBoxContainer, SearchBoxInput } from "./search-box.styles";
 
 const SearchBox = () => {
    return (
-      <div>
-         <SearchBoxContainer type="search" placeholder="Search"/>
-      </div>
+      <SearchBoxContainer>
+         <SearchBoxInput type="search" placeholder="Search"/>
+      </SearchBoxContainer>
    )
 }
 
