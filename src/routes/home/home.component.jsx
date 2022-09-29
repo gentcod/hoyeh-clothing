@@ -1,9 +1,13 @@
 import { HomeContainer } from "./home.styles";
 
+import CardFeature from "../../components/card-featured/card-featured.component";
+import Slider from "../../components/slider/slider.component";
+
 const Home = () => {
    return (
       <HomeContainer>
-         This is the home page
+         <CardFeature/>
+         <Slider/>
       </HomeContainer>
    )
 }
