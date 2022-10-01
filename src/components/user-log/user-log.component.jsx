@@ -1,10 +1,11 @@
-import {UserLogContainer, UserIcon, TagIcon} from './user-log.styles'
+import {UserLogContainer, UserIcon, TagIcon, CartIcon} from './user-log.styles'
 
 const UserLog = () => {
    return (
       <UserLogContainer>
          <UserIcon/>
          <TagIcon/>
+         <CartIcon/>
       </UserLogContainer>
    )
 }

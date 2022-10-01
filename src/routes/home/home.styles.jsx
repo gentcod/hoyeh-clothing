@@ -4,7 +4,7 @@ export const HomeContainer = styled.div`
    position: relative;
    height: 100vh;
    width: 100%;
-   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(37, 47, 37, 0.8)), url("https://i.ibb.co/6FWSSjN/alexi-romano-CCx6-Fz-Cm-OI-unsplash.jpg");
+   background-image: linear-gradient(to right, rgba(37, 47, 37, 0.8), rgba(209, 207, 207, 0.3)), url("https://i.ibb.co/6FWSSjN/alexi-romano-CCx6-Fz-Cm-OI-unsplash.jpg");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;

@@ -7,6 +7,7 @@ export const NavigationContainer = styled.div`
    border-radius: .5rem;
    padding: 1rem;
    display: flex;
+   margin: auto;
 `
 
 export const LogoContainer = styled.div`
@@ -21,5 +22,6 @@ export const NavigationLink = styled(Link)`
    margin-right: 5rem;
    margin-top: .5rem;
    font-size: 1.2rem;
+   text-align: center;
 `
 

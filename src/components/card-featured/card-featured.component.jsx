@@ -10,6 +10,7 @@ const CardFeature = () => {
             <CardContentHeading>Accessories portrays style</CardContentHeading>
             <CardButtonContainer>
                <Button text={"Shop Now"}/>  
+               <Button text={"Explore"}/>  
             </CardButtonContainer>
          </CardContentContainer>
       </CardContainer>
