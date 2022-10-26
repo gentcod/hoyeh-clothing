@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const IntroContainer = styled.div`
    width: 80rem;
-   height: 50rem;
+   height: fit-content;
    position: absolute;
    top: 5%;
    right: 2rem;
@@ -11,17 +11,19 @@ export const IntroContainer = styled.div`
 `
 
 export const IntroHeader = styled.h1`
-   width: 40%;
-   font-size: 10rem;
+   width: 90%;
+   font-size: 15rem;
    font-family: 'Lobster', cursive;
    text-transform: uppercase;
    color: #000;
+   line-height: 1;
    margin: 0 auto;
-   margin-bottom: 8rem;
+   margin-bottom: 2rem;
 `
 
 export const IntroText = styled.p`
    font-size: 1.2rem;
    font-weight: 500;
    color: #eee;
+   margin-bottom: 2rem;
 `

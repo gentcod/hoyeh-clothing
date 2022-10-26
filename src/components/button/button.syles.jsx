@@ -6,6 +6,7 @@ export const ButtonContainer = styled.div`
    background-color: #222;
    border-radius: .5rem;
    z-index: 10;
+   cursor: pointer;
 
    &:not(:last-child) {
       margin-right: 3rem;
